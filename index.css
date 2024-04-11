@@ -127,8 +127,8 @@ body, html {
   }
   .aboutbutton {
     font-size: 6px;
-    font-weight: 200;
-    margin-top: 80px;
+    font-weight: 20;
+    margin-top: 100px;
     letter-spacing: 1px;
     padding: 13px 20px;
     outline: 0;
@@ -145,7 +145,7 @@ body, html {
   
   .aboutbutton:after {
     content: "";
-    background-color: #e91e63; /* Changed background color */
+    background-color: #ed4f83; /* Changed background color */
     width: 100%;
     position: absolute;
     height: 100%;
