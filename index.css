@@ -113,6 +113,7 @@ body, html {
     }
   }
 }
+
 .p typing {
     overflow: hidden;
     border-right: .15em solid orange;
@@ -123,6 +124,39 @@ body, html {
     animation: 
       typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;
+  }
+  .aboutbutton {
+    font-size: 6px;
+    font-weight: 200;
+    margin-top: 80px;
+    letter-spacing: 1px;
+    padding: 13px 20px;
+    outline: 0;
+    border: 1px solid #e9d856;
+    cursor: pointer;
+    position: relative;
+    background-color: #ffb510;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    color: black; /* Set text color to black */
+
+  }
+  
+  .aboutbutton:after {
+    content: "";
+    background-color: #e91e63; /* Changed background color */
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.2s;
+  }
+  
+  .aboutbutton:hover:after {
+    top: 7px;
+    left: 7px;
   }
   
       
