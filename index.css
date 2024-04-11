@@ -113,7 +113,7 @@ body, html {
     }
   }
 }
-
+/*
 .p typing {
     overflow: hidden;
     border-right: .15em solid orange;
@@ -139,13 +139,13 @@ body, html {
     -webkit-user-select: none;
     user-select: none;
     touch-action: manipulation;
-    color: black; /* Set text color to black */
+    color: black;
 
   }
   
   .aboutbutton:after {
     content: "";
-    background-color: #ed4f83; /* Changed background color */
+    background-color: #ed4f83; 
     width: 100%;
     position: absolute;
     height: 100%;
@@ -158,7 +158,7 @@ body, html {
     top: 7px;
     left: 7px;
   }
-  
+*/  
       
 @keyframes mainBlock {
   0% {
@@ -274,8 +274,8 @@ body, html {
      bottom: 0px;
   }
 }
-@keyframes typing {
+/*@keyframes typing {
     from { width: 0 }
     to { width: 100% }
   }
-  
+  */
